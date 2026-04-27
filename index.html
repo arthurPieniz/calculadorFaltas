@@ -7,7 +7,8 @@
 </head>
 <body>
     
-    <h1>calculador de faltas</h1>
+    <h1>calculador de faltas(abaixo porcentagem mínima)</h1>
+    
     <p>meta de porcentagem(0 a 100)</p>
     <input type="number" value="75" id="porcentagem">
     <p>quantidade de presenças</p>
@@ -21,9 +22,31 @@
 
     <br>
     <br>
+    <p>quantos dias preciso vir para fechar a porcentagem?</p>
     <button onclick="calcule()">calcular</button>
 
-    <p id="result">Você precisa vir: </p>
+
+
+
+
+
+    <h1>calculador de faltas(acima porcentagem mínima)</h1>
+    
+    <p>meta de porcentagem(0 a 100)</p>
+    <input type="number" value="75" id="porcentagem2">
+    <p>quantidade de presenças</p>
+    <input type="number" id="nPresenca2">
+    <p>quantidade total</p>
+    <input type="number" id="nTotal2">
+    <p>periodos por dia (9 media semanal ct) </p>
+    <input type="number" value="9" id="periodosDia2">
+
+    <br>
+    <br>
+    <p>quantos dias posso faltar para fechar a porcentagem?</p>
+    <button onclick="calcule2()">calcular</button>
+
+    <p id="result2">Você pode faltar: </p>
 
 </body>
 
